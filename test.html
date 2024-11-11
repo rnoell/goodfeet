@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Feet Store</title>
+    <style>
+        /* Basic styling */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Logo and text container */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            max-width: 300px;
+            height: auto;
+        }
+        .header p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            color: #333;
+        }
+        /* Video container */
+        .video-container {
+            width: 80%;
+            max-width: 800px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <!-- Logo -->
+    <img src="https://d2zpdrfrohaf9r.cloudfront.net/system/logos/522814/original/The_Good_Feet_Store_LOGO_RGB_Bluetag.png?1592928533" alt="The Good Feet Store Logo">
+    <!-- Text description -->
+    <p>Dr. Pamela Mehta, a board-certified orthopedic surgeon, and The Good Feet Store's Chief Medical Officer, unveils the groundbreaking science and research that makes your personalized arch support system from The Good Feet Store so effective.</p>
+</div>
+
+<div class="video-container">
+    <!-- Embed video using the <video> tag -->
+    <video controls autoplay>
+        <source src="https://www.dropbox.com/scl/fi/npg19ekhj5pvwfnjt6btq/In-Store-iPad-Video-Architek-Video.mp4?rlkey=hfmevv2dddwerbf3lxtji8cjk&raw=1" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+</body>
+</html>
